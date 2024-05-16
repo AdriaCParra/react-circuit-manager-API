@@ -1,0 +1,13 @@
+{
+  "name": "react-circuit-manager-api",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "start": "json-server --watch db.json --port 3001"
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.0"
+  }
+}
